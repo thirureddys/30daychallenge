@@ -1,0 +1,5 @@
+s=map(int,raw_input().split())
+print len(s)
+print type(s)
+s=sorted(s)
+print ' '.join(s)
